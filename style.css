@@ -1,0 +1,166 @@
+        @charset "UTF-8";
+        @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+        * {
+            margin: 0;
+            padding: 0;
+            text-decoration: none;
+        }
+        
+        body {
+            background-image: url(img/fundo.jpg);
+        }
+        
+        header {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            padding-top: 10px;
+        }
+        
+        .logo {
+            color: orange;
+            font-size: 40px;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+        }
+        
+        .menu {
+            display: flex;
+            gap: 60px;
+        }
+        
+        .link-menu {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+            text-transform: uppercase;
+        }
+        
+        .pesquisa {
+            display: flex;
+        }
+        
+        .input-header {
+            height: 30px;
+            background-color: transparent;
+            border: 0.5px solid orange;
+            border-radius: 5px 0px 0 5px;
+        }
+        
+         ::placeholder {
+            color: white;
+        }
+        
+        .button-header {
+            background-color: orange;
+            height: 32px;
+            width: 80px;
+            border: none;
+            border-radius: 0px 5px 5px 0px;
+            color: white;
+        }
+        
+        main {
+            padding-top: 70px;
+        }
+        
+        section {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-around;
+        }
+        
+        .conteudo {
+            width: 590px;
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            color: white;
+        }
+        
+        .titulo-1 {
+            color: white;
+            font-size: 50px;
+        }
+        
+        strong {
+            color: orange;
+        }
+        
+        .conteudo-p {
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+        }
+        
+        .button-conteudo {
+            height: 40px;
+            width: 164px;
+            background-color: orange;
+            color: black;
+            font-size: 16px;
+            font-weight: bolder;
+            text-transform: uppercase;
+            border: none;
+            border-radius: 0.5pc;
+        }
+        
+        .cliente {
+            width: 300px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            text-align: center;
+            background-color: black;
+            padding: 30px;
+            border-radius: 10px;
+        }
+        
+        .titulo-2 {
+            padding: 10px 5px;
+            background-color: white;
+            color: orange;
+            font-family: Arial, Helvetica, sans-serif;
+            border-radius: 0.5pc;
+        }
+        
+        .input-cliente {
+            height: 40px;
+            background-color: transparent;
+            border: none;
+            border-bottom: 0.5px solid orange;
+            margin-top: 30px;
+        }
+        
+        .button-cliente {
+            height: 40px;
+            margin-top: 40px;
+            border: none;
+            background-color: orange;
+            border-radius: 5px;
+            color: black;
+            font-size: 16px;
+            font-weight: bolder;
+            text-transform: uppercase;
+        }
+        
+        .novo-cliente {
+            color: white;
+            font-family: Arial, Helvetica, sans-serif;
+            font-size: 20px;
+            margin-top: 30px;
+        }
+        
+        .account {
+            color: orange;
+            font-family: Arial, Helvetica, sans-serif;
+            margin-top: 10px;
+        }
+        
+        .rede-social {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            margin-top: 30px;
+        }
