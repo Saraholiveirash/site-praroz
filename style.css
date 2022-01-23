@@ -37,6 +37,10 @@
             text-transform: uppercase;
         }
         
+        .link-menu:hover {
+            color: rgb(231, 230, 229);
+        }
+        
         .pesquisa {
             display: flex;
         }
@@ -59,6 +63,11 @@
             border: none;
             border-radius: 0px 5px 5px 0px;
             color: white;
+        }
+        
+        .button-header:hover {
+            background-color: rgba(255, 166, 0, 0.836);
+            border: 0.6px solid rgba(255, 166, 0, 0.836);
         }
         
         main {
@@ -106,6 +115,12 @@
             border-radius: 0.5pc;
         }
         
+        .button-conteudo:hover {
+            background-color: transparent;
+            color: white;
+            border: 0.6px solid orange;
+        }
+        
         .cliente {
             width: 300px;
             display: flex;
@@ -143,6 +158,12 @@
             font-size: 16px;
             font-weight: bolder;
             text-transform: uppercase;
+        }
+        
+        .button-cliente:hover {
+            background-color: transparent;
+            color: white;
+            border: 0.6px solid orange;
         }
         
         .novo-cliente {
